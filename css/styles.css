@@ -1,0 +1,65 @@
+:root {
+    /* main styling */
+    --main-text-colour: #333;
+    --main-bg-colour: #f4f4f4;
+    --main-border-colour: #ccc;
+    --main-link-colour: #333;
+    --main-header-colour: #8f7eec;
+    
+    /*container children styling */
+    --container-children-colour: #333;
+    --container-children-bg-colour: #f4f4f4;
+    --container-children-border-colour: #ccc;
+}
+
+/* header styling and unordered list styling */
+header {
+    min-width: 100%;
+    background: var(--main-header-colour);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;    
+}
+
+.hero {
+    flex: 1;
+    padding: 1rem;
+}
+
+nav ul {
+    justify-content: center;
+    list-style-type: none;
+    padding: 1.5rem;
+}
+
+/* styling for various grid-items */
+.grid-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid var(--main-border-colour);
+    background: var(--main-bg-colour);
+    color: var(--main-text-colour);
+}
+
+footer {
+    background: var(--main-header-colour);
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 1.5rem;
+}
+
+/* styling for gallery and store id's */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+}
